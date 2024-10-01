@@ -55,7 +55,6 @@ console.log(x)
     return (<>
     
     <span id="heading" className=" text-3xl w-[100vw] left-[13vw] fixed top-[-4vh] overflow-x-hidden overflow-y-hidden overflow-hidden flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Manya Robin</span>
-      {/* <div ref={chatBoxRef} id="mainbox"   class=" fixed top-[20vh] left-[340px] w-[90vw] h-[40vh] bg-red-200 rounded-lg shadow-xl custom-scrollbar "> */}
       <div ref={chatBoxRef}  className="w-[90vw] h-[80vh] fixed top-[7vh] left-[5vw] right-[5vw] bg-blue-100 rounded-lg overflow-scroll custom-scrollbar ">
     <div  class="space-y-4">
        <div className=" bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"></div>
@@ -77,14 +76,14 @@ console.log(x)
 
 
 
-        {/* <div id="inp" class="form-floating shadow-lg  relative top-[88vh] w-[75vw] left-[5vw] h-[48px] rounded-lg">
+        <div id="inp" class="form-floating shadow-lg  relative top-[88vh] w-[75vw] left-[5vw] h-[48px] rounded-lg">
             <input onKeyDown={handleKeyPress} type="text" value={c} onChange={(e)=>{d(e.target.value)}} class="form-control"   />
             <label for="floatingInput">Write Message</label>
-        </div> */}
+        </div>
         
 
 
-        {/* <button type="button" id="myButton"
+        <button type="button" id="myButton"
         onClick={async()=>{
             const share={name:name,message:c,time:localTime,date:localdate}
 
@@ -104,10 +103,10 @@ console.log(x)
 
 
         }}
-        class="btn shadow-lg btn-info fixed top-[88vh] translate-y-[1px] w-[15vw] left-[81vw] h-[45px]">Send</button>  */}
-        {/* <IoSend className=" text-2xl translate-x-6"/> */}
+        class="btn shadow-lg btn-info fixed top-[88vh] translate-y-[1px] w-[15vw] left-[81vw] h-[45px]">Send</button> 
+        <IoSend className=" text-2xl translate-x-6"/>
 
-{/* <button className="text-2xl fixed top-[2vh]  w-[12vw] left-[81vw] h-[5vh] rounded-t-full bg-yellow-300 p-3 rounded-xl" onClick={()=>{location.reload()}}>g</button> */}
+<button className="text-2xl fixed top-[2vh]  w-[12vw] left-[81vw] h-[5vh] rounded-t-full bg-yellow-300 p-3 rounded-xl" onClick={()=>{location.reload()}}>g</button>
     </>)
 }
 export default Mess
