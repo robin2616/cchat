@@ -77,7 +77,7 @@ console.log(x)
 
 
 
-        <div id="inp" class="form-floating shadow-lg mb-3 absolute top-[470px] w-[500px] left-[370px]">
+        <div id="inp" class="form-floating shadow-lg  relative top-[88vh] w-[75vw] left-[5vw] h-[48px] rounded-lg">
             <input onKeyDown={handleKeyPress} type="text" value={c} onChange={(e)=>{d(e.target.value)}} class="form-control"   />
             <label for="floatingInput">Write Message</label>
         </div>
@@ -104,10 +104,10 @@ console.log(x)
 
 
         }}
-        class="btn shadow-lg btn-info absolute top-[475px] w-[100px] h-[50px] left-[880px]">ghfjgdjh</button> 
+        class="btn shadow-lg btn-info fixed top-[88vh] translate-y-[1px] w-[15vw] left-[81vw] h-[45px]">Send</button> 
         {/* <IoSend className=" text-2xl translate-x-6"/> */}
 
-<button className="text-2xl absolute top-[470px] left-[1000px] bg-yellow-300 p-3 rounded-xl" onClick={()=>{location.reload()}}>fgdgfg</button>
+<button className="text-2xl fixed top-[2vh]  w-[12vw] left-[81vw] h-[5vh] rounded-t-full bg-yellow-300 p-3 rounded-xl" onClick={()=>{location.reload()}}>g</button>
     </>)
 }
 export default Mess
