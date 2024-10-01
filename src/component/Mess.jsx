@@ -104,7 +104,7 @@ console.log(x)
 
         }}
         class="btn shadow-lg btn-info fixed top-[88vh] translate-y-[1px] w-[15vw] left-[81vw] h-[45px]">Send</button> 
-        <IoSend className=" text-2xl translate-x-6"/>
+        {/* <IoSend className=" text-2xl translate-x-6"/> */}
 
 <button className="text-2xl fixed top-[2vh]  w-[12vw] left-[81vw] h-[5vh] rounded-t-full bg-yellow-300 p-3 rounded-xl" onClick={()=>{location.reload()}}>g</button>
     </>)
