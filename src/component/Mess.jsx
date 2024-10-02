@@ -77,7 +77,7 @@ console.log(x)
 
 
 
-        <div id="inp" class="form-floating shadow-lg  fixed top-[87vh] translate-y-[-2px] w-[75vw] left-[5vw] h-[48px] rounded-lg">
+        <div id="inp" class="form-floating shadow-lg  fixed top-[87vh] translate-y-[-2px] w-[75vw] left-[5vw] h-[6vh] rounded-lg">
             <input onKeyDown={handleKeyPress} type="text" value={c} onChange={(e)=>{d(e.target.value)}} class="form-control"   />
             <label for="floatingInput">Write Message</label>
         </div>
@@ -104,7 +104,7 @@ console.log(x)
 
 
         }}
-        class="btn shadow-lg btn-info fixed bottom-[7vh]  w-[15vw] left-[81vw] h-[45px]">Send</button> 
+        class="btn shadow-lg btn-info fixed bottom-[7vh]  w-[15vw] left-[81vw] h-[6vh]">Send</button> 
         {/* <IoSend className=" text-2xl translate-x-6"/> */}
 
 <button className="text-2xl fixed top-[1vh]  w-[12vw] left-[81vw] h-[5vh] rounded-t-full bg-yellow-300 p-3 rounded-xl" onClick={()=>{location.reload()}}></button>
