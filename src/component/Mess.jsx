@@ -62,7 +62,7 @@ console.log(x)
 {x.map((i)=>(<>
     <div class="bg-blue-100  flex h-[auto] text-md flex-row p-3 gap-1 rounded-sm shadow-inner ">
             <p class=" text-red-600 text-md font-semibold relative translate-x-[-2vw] translate-y-[-1vh] top-0">{i.bywhom}</p>
-            <p className=" text-blue-900 relative w-72 bg-black translate-x-[-12vw] translate-y-[1vh] m-1 writing-mode-vertical-rl text-orientation-mixed break-words h-[auto] text-lg font-semibold">{i.message}</p>
+            <p className=" text-blue-900 relative w-72 bg-blue-100 translate-x-[-12vw] translate-y-[1vh] m-1 writing-mode-vertical-rl text-orientation-mixed break-words h-[auto] text-lg font-semibold">{i.message}</p>
             <div className=" flex flex-col gap-0 relative left-[3vw] h-5 scale-[0.8]">
             <p class=" text-blue-900 text-sm font-semibold ">{i.time}</p>
             <p class=" text-blue-900 text-sm font-semibold translate-y-[-10px]">{i.date}</p>
@@ -77,7 +77,7 @@ console.log(x)
 
 
 
-        <div id="inp" class="form-floating shadow-lg  fixed top-[87vh] translate-y-[-2px] w-[75vw] left-[5vw] h-[6vh] rounded-lg">
+        <div id="inp" class="form-floating shadow-lg relative top-[87vh] translate-y-[-2px] w-[75vw] left-[5vw] h-[6vh] rounded-lg">
             <input onKeyDown={handleKeyPress} type="text" value={c} onChange={(e)=>{d(e.target.value)}} class="form-control"   />
             <label for="floatingInput">Write Message</label>
         </div>
@@ -104,7 +104,7 @@ console.log(x)
 
 
         }}
-        class="btn shadow-lg btn-info fixed bottom-[7vh]  w-[15vw] left-[81vw] h-[6vh]">Send</button> 
+        class="btn shadow-lg btn-info relative top-[81vh]  w-[15vw] left-[81vw] h-[6vh]">Send</button> 
         {/* <IoSend className=" text-2xl translate-x-6"/> */}
 
 <button className="text-2xl fixed top-[1vh]  w-[12vw] left-[81vw] h-[5vh] rounded-t-full bg-yellow-300 p-3 rounded-xl" onClick={()=>{location.reload()}}></button>
