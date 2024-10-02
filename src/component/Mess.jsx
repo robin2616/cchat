@@ -62,8 +62,8 @@ console.log(x)
 {x.map((i)=>(<>
     <div class="bg-blue-100  flex h-[auto] text-md flex-row p-3 gap-1 rounded-sm shadow-inner ">
             <p class=" text-red-600 text-md font-semibold relative translate-x-[-2vw] translate-y-[-1vh] top-0">{i.bywhom}</p>
-            <p className=" text-blue-900 relative w-72 bg-blue-100 translate-x-[-12vw] translate-y-[1vh] m-1 writing-mode-vertical-rl text-orientation-mixed break-words h-[auto] text-lg font-semibold">{i.message}</p>
-            <div className=" flex flex-col gap-0 relative left-[3vw] h-5 scale-[0.8]">
+            <p className=" text-blue-900 relative w-72 bg-black translate-x-[-12vw] translate-y-[1vh] m-1 writing-mode-vertical-rl text-orientation-mixed break-words h-[auto] text-lg font-semibold">{i.message}</p>
+            <div className=" flex flex-col gap-0 absolute left-[72vw] h-5 scale-[0.8]">
             <p class=" text-blue-900 text-sm font-semibold ">{i.time}</p>
             <p class=" text-blue-900 text-sm font-semibold translate-y-[-10px]">{i.date}</p>
             </div>
