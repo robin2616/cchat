@@ -44,17 +44,24 @@ showmess();
 const chatBoxRef = useRef(null);
 
 useEffect(() => {
-    // Scroll to the bottom of the chat box when the component mounts or messages update
     if (chatBoxRef.current) {
       chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight;
     }
   }, [x]);
 
+
+const [i,b]=useState();
+  useEffect(()=>{
+   setInterval(() =>
+  {
+     b(i);
+  },1000)
+  },[]);
+
 console.log(x)
 
     return (<>
     
-    {/* <span id="heading" className=" text-3xl w-[100vw] left-[13vw] fixed top-[-4vh] overflow-x-hidden overflow-y-hidden overflow-hidden flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Manya Robin</span> */}
     <h2 className=" text-3xl fixed top-[1vh] left-[30vw] font-semibold ">Manya Robin</h2>
       <div ref={chatBoxRef}  className="w-[90vw] h-[80vh] fixed top-[6vh] left-[5vw] right-[5vw] bg-blue-100 rounded-lg overflow-scroll custom-scrollbar ">
     <div  class="space-y-4">
