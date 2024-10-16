@@ -10,7 +10,7 @@ function Home() {
     return (<>
         <div  class="form-floating mb-3 w-[200px] absolute top-[230px] left-[38%] border-blue-500 border-2 rounded-xl">
             <input  type="string" class="form-control" value={a} onChange={(e) => { b(e.target.value) }} id="floatingInput" placeholder="name@example.com" />
-            <label for="floatingInput">Guchi Puchi ki Mummy</label>
+            <label for="floatingInput">Write Password</label>
         </div>
 
         <button type="button" class="btn btn-success absolute top-[300px] left-[42%] w-[100px]" onClick={async () => {

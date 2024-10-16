@@ -62,7 +62,7 @@ console.log(x)
 
     return (<>
     
-    <h2 className=" text-3xl fixed top-[1vh] left-[30vw] font-semibold ">Manya Robin</h2>
+    <h2 className=" text-3xl fixed top-[1vh] left-[30vw] font-semibold ">Chatting Website</h2>
       <div ref={chatBoxRef}  className="w-[90vw] h-[80vh] fixed top-[6vh] left-[5vw] right-[5vw] bg-blue-100 rounded-lg overflow-scroll custom-scrollbar ">
     <div  class="space-y-4">
        <div className=" bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"></div>
